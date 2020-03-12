@@ -1,0 +1,11 @@
+{
+  "@class" : "org.apereo.cas.support.oauth.services.OAuthRegisteredService",
+  "clientId": "app06",
+  "clientSecret": "RPyrPU0Unx5bdqgI",
+  "serviceId" : "^(https|http|imaps)://.*",
+  "name" : "MyOAuthservice ",
+  "id" : 100,
+  "attributeReleasePolicy" : {
+    "@class" :"org.apereo.cas.services.ReturnAllAttributeReleasePolicy"
+  }
+}
